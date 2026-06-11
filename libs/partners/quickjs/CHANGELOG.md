@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [0.2.0](https://github.com/phoenix20162016/deepagents/compare/langchain-quickjs==0.1.4...langchain-quickjs==0.2.0) (2026-06-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **quickjs:** remove `skills_backend` ([#3843](https://github.com/phoenix20162016/deepagents/issues/3843))
+
+### Features
+
+* **quickjs:** add REPL persistence modes ([#3557](https://github.com/phoenix20162016/deepagents/issues/3557)) ([0cda6f3](https://github.com/phoenix20162016/deepagents/commit/0cda6f3ab28bc83cd16ec9fcc48229bdf6f2dc1a))
+* **quickjs:** add snapshot-based repl persistence between turns ([#3064](https://github.com/phoenix20162016/deepagents/issues/3064)) ([c46feed](https://github.com/phoenix20162016/deepagents/commit/c46feed66e83876054489a8454904de4c87ddf6b))
+* **quickjs:** add swarm task tool ([#3472](https://github.com/phoenix20162016/deepagents/issues/3472)) ([2c28b7b](https://github.com/phoenix20162016/deepagents/commit/2c28b7b8c2ac7571fc3a1f0d8d00f5697fe3e90e))
+* **quickjs:** propagate return types ([#3210](https://github.com/phoenix20162016/deepagents/issues/3210)) ([e26bccb](https://github.com/phoenix20162016/deepagents/commit/e26bccbe81b4e3ff2f0332f56f683106e0bafd88))
+* **quickjs:** rename middleware ([#3334](https://github.com/phoenix20162016/deepagents/issues/3334)) ([fc80075](https://github.com/phoenix20162016/deepagents/commit/fc80075c65c3b4beb8f672b6bb27464fee6d79c2))
+* **quickjs:** surface tool exceptions as the original error ([#3049](https://github.com/phoenix20162016/deepagents/issues/3049)) ([d96dc8c](https://github.com/phoenix20162016/deepagents/commit/d96dc8ce4a1d2d25abc606266cfe14629789c457))
+* **sdk:** surface subagents via inherited `lc_agent_name` projection ([e0a1ed2](https://github.com/phoenix20162016/deepagents/commit/e0a1ed24e6b44c31d0aac3358aeee0d6cb66b2c4))
+* **sdk:** v0.6 ([4db09ac](https://github.com/phoenix20162016/deepagents/commit/4db09acba34b38521192b8f278723524be560779))
+
+
+### Bug Fixes
+
+* **quickjs:** auto-await final-expression Promise in eval REPL ([#3499](https://github.com/phoenix20162016/deepagents/issues/3499)) ([f7f894a](https://github.com/phoenix20162016/deepagents/commit/f7f894aa9f313cf8157bc6d7711013f5509d0b46))
+* **quickjs:** handle top-level await in snapshot step ([#3161](https://github.com/phoenix20162016/deepagents/issues/3161)) ([b330c22](https://github.com/phoenix20162016/deepagents/commit/b330c222ee661f7944a59d7b0ef2e0c7a42b1e29))
+* **quickjs:** keep PTC loop and runtime context in `_PTCState` ([#3134](https://github.com/phoenix20162016/deepagents/issues/3134)) ([c70cc5a](https://github.com/phoenix20162016/deepagents/commit/c70cc5a602bd26191f347dd31cc4e5d17c75f65f))
+* **quickjs:** remove `skills_backend` ([#3843](https://github.com/phoenix20162016/deepagents/issues/3843)) ([1159e50](https://github.com/phoenix20162016/deepagents/commit/1159e504abaeec4f81d5e777ecde6a6cee641edb))
+* **quickjs:** scope REPL prompt sandbox bullet to the runtime ([#3528](https://github.com/phoenix20162016/deepagents/issues/3528)) ([1b395ab](https://github.com/phoenix20162016/deepagents/commit/1b395ab9699b1f384a85efeeef732ea7e4fc523a))
+* **quickjs:** swarm subagent doesn't allow configuring middleware ([#3757](https://github.com/phoenix20162016/deepagents/issues/3757)) ([3394a9d](https://github.com/phoenix20162016/deepagents/commit/3394a9d9c7c89c0a28fa1328c9f6bae68a83ff14))
+* **quickjs:** update system prompt snapshots ([#3450](https://github.com/phoenix20162016/deepagents/issues/3450)) ([9f9220d](https://github.com/phoenix20162016/deepagents/commit/9f9220d80737208faa9262c0bdfb3eeafc0e13c8))
+* **sdk:** stable `HumanMessage` IDs across resumed threads ([#3591](https://github.com/phoenix20162016/deepagents/issues/3591)) ([82c3194](https://github.com/phoenix20162016/deepagents/commit/82c31947f9dc938ffc71e1cea96d162a39aec3a1))
+
+
+### Reverted Changes
+
+* **quickjs:** release: 0.1.1 ([#3255](https://github.com/phoenix20162016/deepagents/issues/3255)) ([8125f71](https://github.com/phoenix20162016/deepagents/commit/8125f71a6ffd40b75a25c017e2b255eeb3be48a6))
+
 ## [0.1.4](https://github.com/langchain-ai/deepagents/compare/langchain-quickjs==0.1.3...langchain-quickjs==0.1.4) (2026-06-03)
 
 ### Bug Fixes
